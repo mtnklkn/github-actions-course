@@ -9,6 +9,7 @@ jobs:
       - name: echo a string
         run: echo "Hello World"
         timeout-minutes: 0
+        continue-on-error: true #bu step fail etsede devam
       - name: multiline script 
         run: |
            node -v 
