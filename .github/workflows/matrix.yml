@@ -5,7 +5,8 @@ jobs:
   node-version:
     strategy: 
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest] 
+        os: [macos-latest, ubuntu-latest, windows-latest]
+#https://github.com/actions/setup-node
         node_version: [6, 8, 10]
         include: 
           - os: ubuntu-latest
